@@ -10,7 +10,7 @@
 <img src="assets/teaser.png" width=95%>
 <p>
 
-
+https://github.com/user-attachments/assets/819ea6ba-1ea6-41fd-89b8-8172f61502ad
 
 ### Installation
 
