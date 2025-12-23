@@ -1,5 +1,10 @@
 # DreamID-V: Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer
 
+<p align="center">
+  <a href="https://guoxu1233.github.io/DreamID-V/">🌐 Project Page</a> |
+  <a href="https://arxiv.org5">📜 Arxiv</a> |
+  <a href="https://huggingface.co">🤗 Models</a> |
+</p>
 
 > **DreamID-V: Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer**<br>
 > [Xu Guo](https://github.com/Guoxu1233/)<sup> * </sup>, [Fulong Ye](https://scholar.google.com/citations?user=-BbQ5VgAAAAJ&hl=zh-CN/)<sup> * </sup>, [Xinghui Li](https://crayon-shinchan.github.io/xinghui99.github.io/)<sup> *</sup>, [Pengqi Tu](https://openreview.net/profile?id=%7EPengqi_Tu1), [Pengze Zhang](https://pangzecheung.github.io/Homepage/), [Qichao Sun](https://github.com/sun631998316), [Songtao Zhao](https://openreview.net/profile?id=~Songtao_Zhao1)<sup> &dagger;</sup>, [Xiangwang Hou](https://scholar.google.com/citations?user=bpskf9kAAAAJ&hl=zh-CN)<sup> &dagger;</sup> [Qian He](https://scholar.google.com/citations?user=9rWWCgUAAAAJ)
@@ -10,7 +15,7 @@
 <img src="assets/teaser.png" width=95%>
 <p>
 
-https://github.com/user-attachments/assets/819ea6ba-1ea6-41fd-89b8-8172f61502ad
+
 
 ### Installation
 
