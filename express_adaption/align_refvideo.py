@@ -76,13 +76,13 @@ lmk_guider.load_state_dict(torch.load(weight_path, map_location=torch.device('cp
 lmk_guider.eval()
 
 
-img_path = '/mnt/bn/hmbytenas/code/guoxu/guoxu/video_face_swap_test/crop_imgs/male_ref1.jpeg'
-video_path = '/mnt/bn/hmbytenas/code/guoxu/guoxu/video_face_swap_test/videos/male_006.mp4'
+img_path = 'crop_imgs/male_ref1.jpeg'
+video_path = 'videos/male_006.mp4'
 
 fps = cv2.VideoCapture(video_path).get(cv2.CAP_PROP_FPS)
 face_results = get_video_npy(video_path)
 video_name = os.path.basename(video_path).split('.')[0]
-align_pose_root_path = '/mnt/bn/hmbytenas/code/guoxu/guoxu/video_face_swap_test/align_pose'
+align_pose_root_path = 'video_face_swap_test/align_pose'
 os.makedirs(align_pose_root_path, exist_ok=True)
 image = Image.open(img_path).convert('RGB')
 
