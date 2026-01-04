@@ -17,6 +17,12 @@
 
 ## ⚡️ Quickstart
 
+### Model Preparation
+| Models       | Download Link                                                                                                                                           |    Notes                      |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| DreamID-V | 🤗 [Huggingface](https://huggingface.co/XuGuo699/DreamID-V)   | Supports 480P & 720P 
+| Wan-2.1 | 🤗 [Huggingface](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B) | VAE & Text encoder
+
 ### Installation
 
 
@@ -27,9 +33,6 @@ pip install -r requirements.txt
 ```
 
 
-
-
-
 #### DreamID-V-Wan-1.3B
 
 - Single-GPU inference
@@ -38,7 +41,7 @@ pip install -r requirements.txt
 python generate_dreamidv.py \
     --size 832*480 \
     --ckpt_dir wan2.1-1.3B path \
-    --dreamidv_ckpt dreamidv path  \
+    --dreamidv_ckpt dreamidv.pth path  \
     --sample_steps 50 \
     --base_seed 42
 ```
@@ -50,7 +53,7 @@ pip install "xfuser>=0.4.1"
 torchrun --nproc_per_node=2 generate_dreamidv.py \
     --size 832*480 \
     --ckpt_dir wan2.1-1.3B path \
-    --dreamidv_ckpt dreamidv path  \
+    --dreamidv_ckpt dreamidv.pth path  \
     --sample_steps 50 \
     --dit_fsdp \
     --t5_fsdp \
