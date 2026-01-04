@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://guoxu1233.github.io/DreamID-V/">🌐 Project Page</a> |
   <a href="https://arxiv.org5">📜 Arxiv</a> |
-  <a href="https://huggingface.co">🤗 Models</a> |
+  <a href="https://huggingface.co/XuGuo699/DreamID-V">🤗 Models</a> |
 </p>
 
 > **DreamID-V: Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer**<br>
