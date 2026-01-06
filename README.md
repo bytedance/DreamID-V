@@ -15,6 +15,13 @@
 <img src="assets/teaser.png" width=95%>
 <p>
 
+## 🔥 News
+- [01/06/2026] 🔥 Our [paper](https://arxiv.org/abs/2601.01425) is released! 
+- [01/05/2026] 🔥 Our code is released!
+- [12/17/2025] 🔥 Our [Project](https://guoxu1233.github.io/DreamID-V/) is released!
+- [08/11/2025] 🎉 Our image version [DreamID](https://superhero-7.github.io/DreamID/) is accepted by SIGGRAPH Asia 2025!
+
+
 ## ⚡️ Quickstart
 
 ### Model Preparation
@@ -67,7 +74,7 @@ Our work builds upon and is greatly inspired by several outstanding open-source 
 
 
 ## 📧 Contact
-If you have any comments or questions regarding this open-source project, please open a new issue or contact [Xu Guo](https://github.com/Guoxu1233/).
+If you have any comments or questions regarding this open-source project, please open a new issue or contact [Xu Guo](https://github.com/Guoxu1233/) and [Fulong Ye](https://github.com/superhero-7).
 
 ## ⭐ Citation
 
