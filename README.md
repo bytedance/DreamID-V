@@ -68,3 +68,19 @@ Our work builds upon and is greatly inspired by several outstanding open-source 
 
 ## 📧 Contact
 If you have any comments or questions regarding this open-source project, please open a new issue or contact [Xu Guo](https://github.com/Guoxu1233/).
+
+## ⭐ Citation
+
+If you find our work helpful, please consider citing our paper and leaving valuable stars
+
+```
+@misc{guo2026dreamidvbridgingimagetovideogaphighfidelity,
+      title={DreamID-V:Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer}, 
+      author={Xu Guo and Fulong Ye and Xinghui Li and Pengqi Tu and Pengze Zhang and Qichao Sun and Songtao Zhao and Xiangwang Hou and Qian He},
+      year={2026},
+      eprint={2601.01425},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.01425}, 
+}
+```
