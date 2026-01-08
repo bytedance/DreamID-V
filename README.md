@@ -16,6 +16,7 @@
 <p>
 
 ## 🔥 News
+- [01/08/2026] 🔥 Thanks HM-RunningHub for supporting [ComfyUI](https://github.com/HM-RunningHub/ComfyUI_RH_DreamID-V)!
 - [01/06/2026] 🔥 Our [paper](https://arxiv.org/abs/2601.01425) is released! 
 - [01/05/2026] 🔥 Our code is released!
 - [12/17/2025] 🔥 Our [project](https://guoxu1233.github.io/DreamID-V/) is released!
