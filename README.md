@@ -23,6 +23,13 @@
 - [08/11/2025] 🎉 Our image version [DreamID](https://superhero-7.github.io/DreamID/) is accepted by SIGGRAPH Asia 2025!
 
 
+## 💡 Usage Tips
+- **Reference Image Preparation**: Please upload **cropped face images** (recommended resolution: 512x512) as reference. Avoid using full-body photos to ensure optimal identity preservation.
+- **Inference Steps**: For simple scenes, you can reduce the sampling steps to **20** to significantly decrease inference time. 
+  > *Note*: Our internal model based on Seedance achieves high quality in under 8 steps. Feel free to experience it at [CapCut](https://www.capcut.cn/).
+- **Best Quality**: For the highest fidelity results, we recommend using a resolution of **1280x720**.
+- **Known Issue (Pose Detection)**: You may encounter the error `no pose detected in the reference video` due to limitations in the current pose extractor. We are actively working on integrating a more robust solution. **Pull Requests are highly welcome!**
+
 ## ⚡️ Quickstart
 
 ### Model Preparation
