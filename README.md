@@ -16,8 +16,9 @@
 <p>
 
 ## 🔥 News
+- [01/11/2026] 🔥 Thanks Goldlionren for supporting the [16GB VRAM GPUs version](https://github.com/Goldlionren/ComfyUI_JR_DreamID-V).
 - [01/10/2026] 🔥 We released [DreamID-V-Wan-1.3B-DWPose](https://github.com/bytedance/DreamID-V/tree/main?tab=readme-ov-file#dreamid-v-wan-13b-dwpose) with enhanced pose detection stability!
-- [01/08/2026] 🔥 Thanks HM-RunningHub for supporting [ComfyUI](https://github.com/HM-RunningHub/ComfyUI_RH_DreamID-V) and Thanks Goldlionren for supporting the [low-VRAM version](https://github.com/Goldlionren/ComfyUI_JR_DreamID-V).
+- [01/08/2026] 🔥 Thanks HM-RunningHub for supporting [ComfyUI](https://github.com/HM-RunningHub/ComfyUI_RH_DreamID-V).
 - [01/06/2026] 🔥 Our [paper](https://arxiv.org/abs/2601.01425) is released! 
 - [01/05/2026] 🔥 Our code is released!
 - [12/17/2025] 🔥 Our [project](https://guoxu1233.github.io/DreamID-V/) is released!
