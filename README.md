@@ -28,7 +28,7 @@
 - **Inference Steps**: For simple scenes, you can reduce the sampling steps to **20** to significantly decrease inference time. 
   > *Note*: Our internal model based on Seedance1.0 achieves high quality in under 8 steps. Feel free to experience it at [CapCut](https://www.capcut.cn/).
 - **Best Quality**: For the highest fidelity results, we recommend using a resolution of **1280x720**.
-- **Known Issue (Pose Detection)**: You may encounter the error `no pose detected in the reference video` due to limitations in the current pose extractor. We are actively working on integrating a more robust solution. **Pull Requests are highly welcome!**
+- **Enhanced Pose Detection**: We have resolved the previous pose detection issue by introducing [**DreamID-V-Wan-1.3B-DWPose**](https://github.com/bytedance/DreamID-V/tree/main?tab=readme-ov-file#dreamid-v-wan-13b-dwpose). This significantly improves stability and robustness in pose extraction.
 
 ## ⚡️ Quickstart
 
@@ -57,7 +57,7 @@ python generate_dreamidv.py \
     --size 832*480 \
     --ckpt_dir wan2.1-1.3B path \
     --dreamidv_ckpt dreamidv.pth path  \
-    --sample_steps 50 \
+    --sample_steps 20 \
     --base_seed 42
 ```
 
@@ -69,7 +69,7 @@ torchrun --nproc_per_node=2 generate_dreamidv.py \
     --size 832*480 \
     --ckpt_dir wan2.1-1.3B path \
     --dreamidv_ckpt dreamidv.pth path  \
-    --sample_steps 50 \
+    --sample_steps 20 \
     --dit_fsdp \
     --t5_fsdp \
     --ulysses_size 2 \
@@ -85,7 +85,7 @@ DreamID-V/
         ├── dw-ll_ucoco_384.onnx 
         └── yolox_l.onnx         
 ```
-- inference
+- Single-GPU inference
 
 ``` sh
 python generate_dreamidv_dwpose.py \
@@ -93,6 +93,21 @@ python generate_dreamidv_dwpose.py \
     --ckpt_dir wan2.1-1.3B path \
     --dreamidv_ckpt dreamidv.pth path  \
     --sample_steps 20 \
+    --base_seed 42
+```
+- Multi-GPU inference using FSDP + xDiT USP
+
+``` sh
+pip install "xfuser>=0.4.1"
+torchrun --nproc_per_node=2 generate_dreamidv_dwpose.py \
+    --size 832*480 \
+    --ckpt_dir wan2.1-1.3B path \
+    --dreamidv_ckpt dreamidv.pth path  \
+    --sample_steps 20 \
+    --dit_fsdp \
+    --t5_fsdp \
+    --ulysses_size 2 \
+    --ring_size 1 \
     --base_seed 42
 ```
 
