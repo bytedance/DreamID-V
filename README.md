@@ -113,7 +113,7 @@ torchrun --nproc_per_node=2 generate_dreamidv_dwpose.py \
 
 
 ## 👍 Acknowledgements
-Our work builds upon and is greatly inspired by several outstanding open-source projects, including [Wan2.1](https://github.com/Wan-Video/Wan2.1), [Phantom](https://github.com/Phantom-video/Phantom), [OpenHumanVid](https://github.com/fudan-generative-vision/OpenHumanVid), [Follow-Your-Emoji](https://github.com/mayuelala/FollowYourEmoji). We sincerely thank the authors and contributors of these projects for generously sharing their excellent codes and ideas.
+Our work builds upon and is greatly inspired by several outstanding open-source projects, including [Wan2.1](https://github.com/Wan-Video/Wan2.1), [Phantom](https://github.com/Phantom-video/Phantom), [OpenHumanVid](https://github.com/fudan-generative-vision/OpenHumanVid), [Follow-Your-Emoji](https://github.com/mayuelala/FollowYourEmoji), [DWPose](https://github.com/IDEA-Research/DWPose). We sincerely thank the authors and contributors of these projects for generously sharing their excellent codes and ideas.
 
 
 ## 📧 Contact
