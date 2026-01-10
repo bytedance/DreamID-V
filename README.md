@@ -46,36 +46,6 @@ Install dependencies:
 # Ensure torch >= 2.4.0
 pip install -r requirements.txt
 ```
-
-
-#### DreamID-V-Wan-1.3B
-
-- Single-GPU inference
-
-``` sh
-python generate_dreamidv.py \
-    --size 832*480 \
-    --ckpt_dir wan2.1-1.3B path \
-    --dreamidv_ckpt dreamidv.pth path  \
-    --sample_steps 20 \
-    --base_seed 42
-```
-
-- Multi-GPU inference using FSDP + xDiT USP
-
-``` sh
-pip install "xfuser>=0.4.1"
-torchrun --nproc_per_node=2 generate_dreamidv.py \
-    --size 832*480 \
-    --ckpt_dir wan2.1-1.3B path \
-    --dreamidv_ckpt dreamidv.pth path  \
-    --sample_steps 20 \
-    --dit_fsdp \
-    --t5_fsdp \
-    --ulysses_size 2 \
-    --ring_size 1 \
-    --base_seed 42
-```
 #### DreamID-V-Wan-1.3B-DWPose
 Please ensure the pose estimation models are placed in the correct directory as follows:
 ```text
@@ -100,6 +70,35 @@ python generate_dreamidv_dwpose.py \
 ``` sh
 pip install "xfuser>=0.4.1"
 torchrun --nproc_per_node=2 generate_dreamidv_dwpose.py \
+    --size 832*480 \
+    --ckpt_dir wan2.1-1.3B path \
+    --dreamidv_ckpt dreamidv.pth path  \
+    --sample_steps 20 \
+    --dit_fsdp \
+    --t5_fsdp \
+    --ulysses_size 2 \
+    --ring_size 1 \
+    --base_seed 42
+```
+
+#### DreamID-V-Wan-1.3B
+
+- Single-GPU inference
+
+``` sh
+python generate_dreamidv.py \
+    --size 832*480 \
+    --ckpt_dir wan2.1-1.3B path \
+    --dreamidv_ckpt dreamidv.pth path  \
+    --sample_steps 20 \
+    --base_seed 42
+```
+
+- Multi-GPU inference using FSDP + xDiT USP
+
+``` sh
+pip install "xfuser>=0.4.1"
+torchrun --nproc_per_node=2 generate_dreamidv.py \
     --size 832*480 \
     --ckpt_dir wan2.1-1.3B path \
     --dreamidv_ckpt dreamidv.pth path  \
