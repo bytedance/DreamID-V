@@ -76,6 +76,26 @@ torchrun --nproc_per_node=2 generate_dreamidv.py \
     --ring_size 1 \
     --base_seed 42
 ```
+#### DreamID-V-Wan-1.3B-DWPose
+Please ensure the pose estimation models are placed in the correct directory as follows:
+```text
+DreamID-V/
+└── pose/
+    └── models/
+        ├── dw-ll_ucoco_384.onnx 
+        └── yolox_l.onnx         
+```
+- inference
+
+``` sh
+python generate_dreamidv_dwpose.py \
+    --size 832*480 \
+    --ckpt_dir wan2.1-1.3B path \
+    --dreamidv_ckpt dreamidv.pth path  \
+    --sample_steps 20 \
+    --base_seed 42
+```
+
 
 ## 👍 Acknowledgements
 Our work builds upon and is greatly inspired by several outstanding open-source projects, including [Wan2.1](https://github.com/Wan-Video/Wan2.1), [Phantom](https://github.com/Phantom-video/Phantom), [OpenHumanVid](https://github.com/fudan-generative-vision/OpenHumanVid), [Follow-Your-Emoji](https://github.com/mayuelala/FollowYourEmoji). We sincerely thank the authors and contributors of these projects for generously sharing their excellent codes and ideas.
