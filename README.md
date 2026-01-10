@@ -81,7 +81,7 @@ torchrun --nproc_per_node=2 generate_dreamidv_dwpose.py \
     --base_seed 42
 ```
 
-#### DreamID-V-Wan-1.3B
+#### DreamID-V-Wan-1.3B-MediaPipe
 
 - Single-GPU inference
 
