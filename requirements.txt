@@ -8,6 +8,7 @@ tokenizers==0.21.4
 accelerate==1.11.0
 tqdm
 imageio
+onnxruntime
 easydict
 ftfy
 dashscope
