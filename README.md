@@ -119,6 +119,13 @@ Our work builds upon and is greatly inspired by several outstanding open-source 
 ## 📧 Contact
 If you have any comments or questions regarding this open-source project, please open a new issue or contact [Xu Guo](https://github.com/Guoxu1233/) and [Fulong Ye](https://github.com/superhero-7).
 
+## ⚠️ Ethics Statement
+This project, **DreamID-V**, is intended for **academic research and technical demonstration purposes only**.
+- **Prohibited Use**: Users are strictly prohibited from using this codebase to generate content that is illegal, defamatory, pornographic, harmful, or infringes upon the privacy and rights of others.
+- **Responsibility**: Users bear full responsibility for the content they generate. The authors and contributors of this project assume no liability for any misuse or consequences arising from the use of this software.
+- **AI Labeling**: We strongly recommend marking generated videos as "AI-Generated" to prevent misinformation.
+By using this software, you agree to adhere to these guidelines and applicable local laws.
+
 ## ⭐ Citation
 
 If you find our work helpful, please consider citing our paper and leaving valuable stars
