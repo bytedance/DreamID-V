@@ -1,0 +1,34 @@
+opencv-python>=4.9.0.80
+
+diffusers==0.35.2
+transformers==4.51.3
+# tokenizers>=0.20.3
+# accelerate>=1.1.1
+
+tqdm
+imageio[ffmpeg]
+easydict
+ftfy
+dashscope
+imageio-ffmpeg
+
+numpy>=1.23.5,<2
+scipy
+
+moviepy==1.0.3
+librosa
+
+omegaconf
+pandas
+
+gradio
+
+open-clip-torch
+protobuf
+sentencepiece
+
+optimum-quanto
+
+librosa
+pydub
+
