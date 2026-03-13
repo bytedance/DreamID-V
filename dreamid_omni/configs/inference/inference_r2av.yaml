@@ -1,0 +1,22 @@
+
+ckpt_dir: ./ckpts
+output_dir: ./result/dreamid_omni_new_rope
+sample_steps: 50
+solver_name: unipc
+model_name: "dreamid_omni" 
+shift: 5.0
+sp_size: 8
+video_cfg_scale: 3.0
+video_ref_cfg_scale: 1.5
+audio_cfg_scale: 4.0
+audio_ref_cfg_scale: 2.0
+mode: "r2av" 
+fp8: False
+cpu_offload: False
+seed: 100
+video_negative_prompt: "jitter, bad hands, blur, distortion"  
+audio_negative_prompt: "robotic, muffled, echo, distorted"    
+video_frame_height_width: [704, 1280] #[512, 992] or [704, 1280]
+each_example_n_times: 1
+data_root: ./test_case
+
