@@ -181,4 +181,4 @@ If you find our work helpful, please consider citing our paper and leaving valua
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bytedance/DreamID-V&type=date&legend=top-left)](https://www.star-history.com/#bytedance/DreamID-V&type=date&legend=top-left)
+[![Star History Chart](https://star-history.dera.page/svg?repos=bytedance/DreamID-V&type=date&legend=top-left)](https://star-history.dera.page/#bytedance/DreamID-V&type=date&legend=top-left)
